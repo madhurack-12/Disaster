@@ -1,0 +1,78 @@
+/* ================================
+   FAQ / QUESTIONS & ANSWERS
+================================ */
+
+.faq-section {
+  margin-top: 32px;
+  padding: 26px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.faq-title {
+  margin-bottom: 18px;
+}
+
+.faq-title span {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #38bdf8;
+  margin-bottom: 6px;
+}
+
+.faq-title h3 {
+  margin: 0;
+  font-size: 22px;
+  color: white;
+}
+
+.faq {
+  margin-top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.035);
+  overflow: hidden;
+}
+
+.faq summary {
+  min-height: 60px;
+  padding: 18px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  cursor: pointer;
+  color: #f8fafc;
+  font-size: 15px;
+  font-weight: 700;
+  list-style: none;
+}
+
+.faq summary::-webkit-details-marker {
+  display: none;
+}
+
+.faq summary:hover {
+  background: rgba(56, 189, 248, 0.08);
+}
+
+.faq summary svg {
+  flex-shrink: 0;
+  transition: transform 0.25s ease;
+  color: #38bdf8;
+}
+
+.faq[open] summary svg {
+  transform: rotate(180deg);
+}
+
+.faq p {
+  margin: 0;
+  padding: 0 20px 20px;
+  color: #b8c4d4;
+  font-size: 14px;
+  line-height: 1.7;
+}
